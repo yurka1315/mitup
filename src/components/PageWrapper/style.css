@@ -1,0 +1,13 @@
+.layout {
+    display: grid;
+    min-height: 100vh;
+    width: 1200px;
+    margin: 0 auto;
+    grid-template-areas: 'header' 'content' 'footer';
+    grid-template-rows: 60px 1fr 80px;
+}
+
+.content {
+    grid-area: content;
+    height: 100%;
+}
