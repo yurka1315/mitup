@@ -9,7 +9,7 @@ const initialValues = [
   {
     title: 'Состоит из латинских букв или кириллицы',
     hasError: true,
-    regexp: /(^[a-z\-'\s]+)$|(^[а-яё\-'\s]+)$/i,
+    regexp: /^([a-z]+[\s!-)@#$|^%,?/*\.$=(#']*){0,}$|^([а-яё]+[\s!-)@#$|^%,?/*\.$=(#']*){0,}$/i,
     minLength: 0
   },
   {
@@ -21,7 +21,8 @@ const initialValues = [
   {
     title: 'Не короче 1 символа',
     hasError: true,
-    regexp: /[a-zа-яё'-]+/i,
+    // regexp: /[a-zа-яё'-]+/i,
+    regexp: /./i,
     minLength: 1
   },
   {
