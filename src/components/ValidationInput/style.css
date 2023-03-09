@@ -1,0 +1,23 @@
+.validate-container {
+    position: absolute;
+    width: 322px;
+    /* min-height: 120px; */
+    background-color: #fff;
+    left: 200px;
+    bottom: -42px;
+    padding-left: 34px;
+    padding-right: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-radius: 8px;
+    box-shadow: -3px 2px 20px rgba(33, 43, 52, 0.15);
+}
+
+.validate-container::after {
+    content: '';
+    position: absolute;
+    left: -35px;
+    bottom: 43px;
+    border: 22px solid transparent;
+    border-right: 22px solid #fff;
+}

@@ -1,0 +1,13 @@
+.title {
+    display: block;
+    font-size: 12px;
+}
+
+.validate-text__wrapper {
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.validate-text__wrapper:last-child {
+    margin-bottom: 0;
+}
